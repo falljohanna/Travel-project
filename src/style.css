@@ -47,7 +47,54 @@ header a {
     max-width: 1400px;
     margin: 0 auto;
 }
-@media (max width: 900px) {
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://visitsweden.com/_next/image/?url=https%3A%2F%2Fs3-eu-north-1.amazonaws.com%3A443%2Fpy3.visitsweden.com%2Foriginal_images%2F2018-07-05_041957-146932_IBSweb.jpg&w=1980&q=75);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-right: 20px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: white;
+    opacity: 0.7;
+}
+
+@media (max-width: 960px) {
    header {
     padding: 60px 0;
    } 
