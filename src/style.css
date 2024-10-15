@@ -162,6 +162,16 @@ padding: 0 30px 30px;
     background-color: #462cb3;
 }
 
+.photo-grid {
+   margin: 30px 0;
+}
+
+.photos {
+display: block;
+width: 100%;
+aspect-ratio: 1/1;
+}
+
 section {
     max-width: 100%;
     margin: 0 auto;
@@ -210,6 +220,7 @@ footer a {
     max-width: 800px;
 }
 
+
 @media (max-width: 960px) {
    header {
     padding: 60px 0;
@@ -239,4 +250,5 @@ footer a {
    .embed {
     aspect-ratio: 16/9;
    }
+ 
 }
