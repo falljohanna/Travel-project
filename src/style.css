@@ -106,6 +106,10 @@ main p {
     grid-template-columns: 1fr 2fr 2fr;
     grid-gap: 64px;
 }
+.img-responsive {
+    width: 100%;
+    display: block;
+}
 
 .grid-2-columns {
     grid-template-columns: 1fr 1fr;
@@ -118,9 +122,18 @@ grid-template-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 2fr 2fr;
 } 
 
+.embed {
+    width: 100%;
+    aspect-ratio: 1 /1;
+}
+
 .card {
     background-color: white;
     margin: 30px 0;
+}
+
+.card-header.grid {
+grid-gap: 0;
 }
 
 .card-body {
@@ -132,7 +145,8 @@ padding: 0 30px 30px;
 }
 
 .card img {
-    max-width: 200px;
+    width: 100%;
+    aspect-ratio: 1/1;
 }
 
 .btn {
@@ -218,5 +232,11 @@ footer a {
    }
    .img-responsive {
     max-width: 100%;
+   }
+   .card-header img {
+    display: none;
+   }
+   .embed {
+    aspect-ratio: 16/9;
    }
 }
